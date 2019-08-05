@@ -1,0 +1,18 @@
+.center {
+	text-align: center;
+}
+
+#hex {
+	color: #888;
+	font-family: sans-serif;
+}
+
+#rgb {
+	color: rgb(136, 136, 136);
+	font-family: sans-serif;
+}
+
+#rgba {
+	color: rgba(136, 136, 136, 0.1);
+	font-family: sans-serif;
+}

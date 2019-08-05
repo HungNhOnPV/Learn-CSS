@@ -1,0 +1,17 @@
+.center {
+	text-align: center;
+}
+
+h1 {
+	color: rgba(100, 150, 70, 0.5);
+	font-family: sans-serif;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	line-height: 2;
+}

@@ -1,0 +1,9 @@
+color: #DDD // chuyển màu
+text-align: center|left|right // căn lề chữ
+text-decoration: none|underline // xóa hoặc tao gạch chân cho chữ
+text-transform: uppercase|lowercase|capitalize // biến đổi chữ sang hoa hoặc thường hoặc viết chữ cái đầu từ
+text-indent: 10px // lùi đầu dòng
+letter-spacing: 5px // khoảng cách các chữ cái
+word-spacing: 5px // khoảng cách giữa các từ
+line-height: 1.2 // khoảng cách giữa các dòng
+text-shadow: 1px 1px rgba(0,0,0,0.2) // đổ bóng cho chữ

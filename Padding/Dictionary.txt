@@ -1,0 +1,8 @@
+padding-top
+padding-right
+padding-bottom
+padding-left
+padding: top right bottom left;
+padding: top left-right bottm;
+padding: top-bottm left-right;
+padding: all;

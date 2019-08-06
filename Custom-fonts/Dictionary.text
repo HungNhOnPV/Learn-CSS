@@ -1,0 +1,4 @@
+font-family: font1,font2,font3 // kiểm tra font có trên máy từ font1 -> font2 -> font3
+font-style: normal | itatic
+font-size: 18px
+font-weight: normal | bold | 400 | 600 | 700 | 900

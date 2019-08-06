@@ -1,0 +1,2 @@
+Setting: npm install -g live-server
+Run: live-server

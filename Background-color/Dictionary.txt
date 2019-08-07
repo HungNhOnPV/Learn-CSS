@@ -1,0 +1,5 @@
+background-color: color  // mau nen
+background-color: transparent; // mau trong suot
+background-color: gradient; // chuyen mau
+
+trang ho tro tao gradient: https://cssgradient.io

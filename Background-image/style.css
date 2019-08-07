@@ -1,0 +1,43 @@
+body {
+	background-color: #EEE;
+	font-family: sans-serif;
+}
+
+.list-item {
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 16px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	background-color: #DDD;
+}
+
+.list-item-transparent {
+	background: rgb(137,251,2);
+	background: linear-gradient(90deg, rgba(137,251,2,1) 0%, rgba(255,235,0,1) 100%, rgba(0,212,255,1) 100%);
+	color: #FFF;
+}
+
+.list-item-pattern {
+	background-image: url(./pattern.jpg);
+	background-size: 20%;
+	height: 100px;
+	color: #FFF;
+}
+
+.list-item-image {
+	background-image: url(./image.jpg);
+	height: 100px;
+	color: #FFF;
+	background-size: cover;
+	background-position: center;
+}
+
+.list-item-parallax {
+	background-image: url(./image.jpg);
+	height: 100px;
+	color: #FFF;
+	background-size: cover;
+	background-attachment: fixed;
+}

@@ -1,0 +1,7 @@
+"*" hiểu là mặc định
+
+background-image: url(...) // chèn ảnh
+background-repeat: repeat-x | repaet-y | no-repeat | repeat* | ... // lặp theo chiều x, lặp theo chiều y, không lặp, lặp 
+background-size: % | contain | cover | auto* | ... // %, co ảnh vừa với phần tử chứa, ảnh được co để vừa với phần tử chứa tuy nhiên ảnh bị cắt nếu kích thước không cùng tỷ lệ với phần tử chứa hiển thị ảnh theo chiều ngang, tự động
+background-position: x y | center // chỉnh ảnh theo chiều x y, chỉnh vào giữa ảnh
+background-attachment: scrpll* | fixed // để ảnh chu bình thường, giữ trang và kéo ảnh

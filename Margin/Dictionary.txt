@@ -1,0 +1,8 @@
+margin-top
+margin-right
+margin-bottom
+margin-left
+margin: top right bottom left;
+margin: top left-right bottm;
+margin: top-bottm left-right;
+margin: all;

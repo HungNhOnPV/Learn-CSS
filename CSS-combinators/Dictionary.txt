@@ -1,0 +1,5 @@
+CSS combinators:
+	descendant selector (space) // cha đến con đến cháu
+	child seletor (>) // cha đến con 
+	adjacent sibling selector (+) // selector đến anh em tiếp theo 
+	general sibling selector (~) // selector những thành anh em tiếp theo

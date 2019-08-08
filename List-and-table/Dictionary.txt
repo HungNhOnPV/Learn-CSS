@@ -1,0 +1,11 @@
+List:
+	list-style-type: circle; // dấu tròn 
+	list-style-type: square; // dấu vuông 
+	list-style-type: upper-roman; // dánh theo thứ tự roman
+	list-style-type: lower-alpha; // đánh theo thứ tự alpha
+	list-style-image: url('...'); // chèn ảnh vào dấu 
+	list-style-position: outside | inside; // dấu không tính trong dòng, dấu tính trong dòng 
+	list-style: square inside url("sqpurple.gif"); // hình của dấu, tính hay ko tính trong dòng, chèn ảnh
+Table:
+	border-collapse: collapse; // thu gọn border 
+	vertical-align: top,middle,bottom; // chỉnh chữ trông table

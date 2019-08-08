@@ -1,0 +1,21 @@
+body {
+	font-family: rotato, sans-serif;
+}
+
+.ul-list {
+	list-style-type: square;
+}
+
+.ol-list {
+	list-style-type: upper-alpha;
+}
+
+.table-basic,tr,td {
+	width: 500px;
+	border-collapse: collapse;
+	border-bottom: 1px solid #EEE;
+}
+
+h2 {
+	color: green;
+}

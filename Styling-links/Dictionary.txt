@@ -1,0 +1,5 @@
+States:
+	a:link // chưa được click bao giờ
+	a:visiter // đã được click rồi
+	a:hover // trỏ chuột vào nhưng chưa click
+	a:active // trỏ chuột và click vào nhưng chưa thả click

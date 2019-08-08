@@ -1,0 +1,8 @@
+Pseudo class:
+	:first-child // thay đổi thẻ đầu tiên trong body hoặc div 
+Pseudo element:
+	::before { content: url(...);} // thêm content vào trước
+	::first-letter // thay đổi thông số dòng đầu tiên
+	::first-letter // thay đổi chữ cái đầu tiên
+	::after { content: url(...);} // thêm content vào sau 
+	::selection // chữ bị bôi đen sẽ thay đổi 

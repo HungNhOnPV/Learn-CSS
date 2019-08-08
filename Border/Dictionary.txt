@@ -1,6 +1,6 @@
 Syntax
 	border-width: 1px
-	border-style: solid | dotted | dashed | ...
+	border-style: solid | dotted | dashed | ... // nét liền, nét dứt, nét đứt thưa
 	border-color: red
 Shorthand:
 	border: 1px solid red;

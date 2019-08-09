@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.album-square {
+	height: 128px;
+	width: 128px;
+	background-image: url('http://lorempixel.com/400/200');
+	/*ảnh tự động chuyển tra goole : lorempixel*/ 
+	/*https://via.placeholder.com/128x200*/ /*khung ảnh*/ 
+	background-size: cover;
+	background-position: center;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 60px;
+	margin: 10px 20px;
+}
+
+.album-square .overlay {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+
+.album-square:hover .overlay {
+	opacity: 1;
+}
+
+.name-album {
+	font-size: 15px;
+	margin: 0 20px;
+}

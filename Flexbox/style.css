@@ -13,6 +13,7 @@
 	background-color: red;
 	flex-basis: 150px; /*thay đổi đọ rộng của content */
 	flex-grow: 1; /*chia chỗ dư còn lại cho các content*/
+	flex-shrink: 1; /*chia đều chỗ thiếu cho các content*/
 }
 
 .child-2 {

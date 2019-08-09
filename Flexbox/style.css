@@ -1,4 +1,9 @@
 .container {
-	display: flex;
-	flex-direction: row /*column*/;
+	display: flex; /*chuyển sang flex */
+	background-color: #EEE;
+	flex-direction: row /*column*/; /*chuyển sang dang cột hoặc hàng */
+	justify-content: /*flex-start*/ /*flex-end*/ center /*space-between*/ /*space-around*/; 
+	/*chuyển content sang trái, phải, giữa, chia đều ra, chia đều ra và có khoảng cách ở đầu vào cuối */
+	height: 250px;
+	align-items: center; /*thay đổi item theo chiều vuông góc với flex-direction với mặc định là stretch*/
 }

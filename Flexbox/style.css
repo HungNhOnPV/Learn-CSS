@@ -12,14 +12,17 @@
 .child-1 {
 	background-color: red;
 	flex-basis: 150px; /*thay đổi đọ rộng của content */
+	flex-grow: 1; /*chia chỗ dư còn lại cho các content*/
 }
 
 .child-2 {
 	background-color: green;
 	flex-basis: 200px;
+	flex-grow: 1;
 }
 
 .child-3 {
 	background-color: blue;
 	flex-basis: 150px;
+	flex-grow: 1;
 }

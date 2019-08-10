@@ -1,9 +1,10 @@
-/*position: static* | relative | fixed | absolute | stick*/
+/*position: static* | relative | fixed | absolute | stick 
+  // vi trí cố định, di chuyển so với vị trí cố định, di chuyển so với cửa sổ trình duyệt*/
 /*top bottom left right*/
 
-.container {
+/*.container {
 	display: flex;
-}
+}*/
 
 .box {
 	width: 100px;
@@ -16,10 +17,16 @@
 
 .green {
 	background-color: green;
-	position: relative;
-	right: 20px;
+/*	position: relative;
+	right: 20px;	*/
 }
 
 .blue {
 	background: blue;
+}
+
+.fixed {
+	position: fixed;
+	right: 10px;
+	top: 10px;
 }

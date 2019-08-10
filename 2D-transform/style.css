@@ -1,0 +1,16 @@
+/*CSS 2D Transform
+	translate // dich chuyển vị trí 
+	rotate // xay element
+	scale // phóng to thu nhỏ 
+	skew // làm méo 
+	matric
+*/
+
+.item {
+	width: 100px;
+	height: 100px;
+	background-color: #EEE;
+	transform: translate(100px, 100px);
+	transform: scale(0.5);
+	transform: rotate(30deg);
+}

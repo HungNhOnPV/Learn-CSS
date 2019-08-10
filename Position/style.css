@@ -1,5 +1,5 @@
 /*position: static* | relative | fixed | absolute | stick 
-  // vi trí cố định, di chuyển so với vị trí cố định, di chuyển so với cửa sổ trình duyệt*/
+  // vi trí cố định, di chuyển so với vị trí cố định, di chuyển so với cửa sổ trình duyệt, di chuyển so với cha là relative*/
 /*top bottom left right*/
 
 /*.container {

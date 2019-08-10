@@ -1,0 +1,25 @@
+/*position: static* | relative | fixed | absolute | stick*/
+/*top bottom left right*/
+
+.container {
+	display: flex;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+	position: relative;
+	right: 20px;
+}
+
+.blue {
+	background: blue;
+}

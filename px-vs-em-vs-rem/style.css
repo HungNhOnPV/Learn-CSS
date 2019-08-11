@@ -1,0 +1,14 @@
+/*em // kích thước gấp đôi cha */
+/*rem // kích thước gấp đôi body */
+
+.px {
+	font-size: 32px;
+}
+
+.em {
+	font-size: 2em;
+}
+
+.rem {
+	font-size: 2rem;
+}

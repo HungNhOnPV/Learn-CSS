@@ -1,0 +1,49 @@
+/*wed: easings.net*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.button {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	padding: 8px 16px;
+	display: inline-block;
+	background-color: #DDD;
+	transition: all 0.5s;
+}
+
+.button:hover {
+	color: #FFF;
+	background-color: #8393c5;
+}
+
+.album-item {
+	width: 200px;
+	height: 200px;
+	background-image: url(https://picsum.photos/200/300);
+	background-size: cover;
+	background-position: center;
+}
+.album-item .overlay {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.album-item .overlay .far {
+	transform: scale(3);
+	transition: all 0.3s;
+}
+
+.album-item:hover .overlay {
+	opacity: 1;
+}
+
+.album-item:hover .overlay .far {
+	transform: scale(7);
+}
+
